@@ -1,0 +1,30 @@
+{
+  "name": "FORGED — Trading Terminal",
+  "short_name": "FORGED",
+  "description": "Professional offline trading journal and performance tracker",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07090E",
+  "theme_color": "#07090E",
+  "lang": "en",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log Trade",
+      "short_name": "+ Trade",
+      "description": "Quickly log a new trade",
+      "url": "./index.html"
+    }
+  ],
+  "prefer_related_applications": false
+}
